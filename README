@@ -1,0 +1,10 @@
+Application Testing with Capybara - Code Examples
+
+Installation
+------------
+
+As far as possible the examples will run locally but some require access to the internet.
+
+In order to run the examples you will need to place the html directory under the document root of a webserver of your choice.
+
+

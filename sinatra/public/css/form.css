@@ -1,0 +1,20 @@
+form ul {
+    list-style-type: none;
+    padding: 0px;
+}
+form li {
+    padding: 6px 1% 9px 1%;
+}
+#name {
+    width: 300px;
+}
+#book_title {
+    width: 300px;
+}
+.labelradio {
+    display: inline;
+}
+label {
+    display: block;
+    padding: 0 0 3px 0;
+}

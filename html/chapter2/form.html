@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"> 
+    <title>Submit Form Examples</title>
+    <script>
+      window.onload = function() {
+        var myform = document.getElementById("myform");
+
+        myform.onsubmit = function(e) {
+          alert("form has been submitted");
+          console.log(e);
+        };
+
+      };
+    </script>
+  </head>
+  <body>
+    <div id="main">
+      <form action="/upload_empty" method="post" enctype="multipart/form-data">
+        <p>
+        <label for="form_image">Image</label>
+        <input type="file" name="image" id="form_image"/>
+        </p>
+
+        <p>
+        <input type="hidden" name="form[dummy]" value="ensure params[:form] exists"/>
+        <input type="submit" value="Upload Empty"/>
+        <p>
+      </form>
+
+      <div class="section">
+        <form id="myform">
+          <label for="name1">User Forename</label>
+          <input id="name1" type="text" name="Forename" value="" />
+          <label for="name2">User Surname</label>
+          <input id="name2" type="text" name="Surname" value="" />
+          <p>
+          <label for="title">Title</label>
+          <select name="user_title" id="title">
+            <option>Mrs</option>
+            <option>Mr</option>
+            <option>Miss</option>
+          </select>
+          </p>
+          <p>
+          <label for="under_16">Under 16</label>
+          <input type="radio" name="underage" value="under" id="under_16" checked="checked"/>
+          <label for="over_16">Over 16</label>
+          <input type="radio" name="overage" value="over" id="over_16"/>
+          </p>
+          <p>
+          <label for="consent">Consent Given?</label>
+          <input type="checkbox" value="yes" name="consent_checkbox" id="consent"/>
+          </p>
+          <input type="submit" value="Go" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

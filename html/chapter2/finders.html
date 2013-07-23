@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"> 
+    <title>Finder Examples</title>
+    <script>
+      window.onload = function() {
+        var mydiv = document.getElementById("mydiv");
+
+        mydiv.onclick =function() {
+          alert('div has been clicked');
+        };
+
+      };
+    </script>
+    <style>
+      #mydiv {
+        height: 30px;
+        width: 100px;
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div class="section">
+        <div id="mydiv" title="mydivtitle">Click This Div</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.DS_Store
+images
+*.doc
+*.txt
+*.ini
+*.docx
+*.xlsx
+*.zip
+*.log
+*.swp
+vendor
+bin
+.bundle
+revisions
+

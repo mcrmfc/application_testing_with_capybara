@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="css/form.css">
+<form action="/submit" method="post">
+  <header id="header" class="info">
+    <h2>Book Reviews</h2>
+    <div>Review the last book you purchased...</div>
+  </header>
+  <ul>
+    <li>
+    <label for="name">
+      Your Name
+    </label>
+    <input type="text" id="name" name="name" maxlegth="255">
+    </li>
+    <li>
+    <label class="desc" for="age">
+      Age Range
+    </label>
+    <div>
+      <select id="age" name="age"> 
+        <option value="-" selected="selected">
+        </option>
+        <option value="<20" >
+        Under 20
+        </option>
+        <option value="20-50" >
+        20 - 50 
+        </option>
+        <option value="50+" >
+        Over 50
+        </option>
+      </select>
+    </div>
+    </li>
+    <li>
+    <label for="book_title">
+      Book Title
+    </label>
+    <input type="text" id="book_title" name="title" maxlegth="255">
+    </li>
+    <li>
+    <label for="review">
+      Your Review...
+    </label>
+    <textarea id="review" name="review" rows="10" cols="50"></textarea>
+    </li>
+    <li>
+    <input type="submit" value="Submit"/>
+    </li>
+  </ul>
+</form>

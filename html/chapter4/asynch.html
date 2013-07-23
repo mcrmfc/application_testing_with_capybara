@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"> 
+    <title>Asynch Examples</title>
+    <script src="http://capybara.local/html/jquery-1.8.3.js"></script>
+    <script>
+      $(document).ready(function() {
+        var addText = function() {
+          $(".section").attr("style", "visibility;visible;");
+        }
+        setTimeout(addText, 5000);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="main">
+      <div class="section" style="visibility:hidden;">Capybara Rocks</div>
+    </div>
+  </body>
+</html>

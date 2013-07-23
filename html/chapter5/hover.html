@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"> 
+    <title>Hover Examples</title>
+    <script src="http://capybara.local/html/jquery-1.8.3.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#box2").hover(
+          function() {
+          $(this).css("background-color", "green");
+        },
+        function() {
+          $(this).css("background-color", "blue");
+        }
+        );
+      });
+    </script>
+    <style>
+      .box {
+        height: 200px;
+        width: 200px;
+        margin: 10px;
+        background-color: blue;
+      }
+      #box1:hover {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="box1" class="box"></div>
+      <div id="box2" class="box"></div>
+    </div>
+  </body>
+</html>
+

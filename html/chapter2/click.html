@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"> 
+    <title>Click Examples</title>
+    <script>
+      window.onload = function() {
+        var myanchor = document.getElementById("myanchor");
+        var mydiv = document.getElementById("mydiv");
+        var mybutton = document.getElementById("mybutton");
+
+        myanchor.onclick = function() {
+          alert("anchor has been clicked");
+        };
+
+        mydiv.onclick = function() {
+          alert("div has been clicked");
+        };
+
+        mybutton.onclick = function() {
+          alert("button has been clicked");
+        };
+      };
+    </script>
+  </head>
+  <body>
+    <div id="main">
+      <div class="section">
+        <a id="myanchor" title="myanchortitle" href="#">Click this Anchor</a>
+        <div id="mydiv" title="mydivtitle">Click This Div</div>
+        <input id="mybutton" type="button" value="Click This Button" title="mybuttontitle"/>
+      </div>
+    </div>
+  </body>
+</html>
