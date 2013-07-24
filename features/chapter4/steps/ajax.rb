@@ -1,5 +1,5 @@
 When(/^I visit a page that loads images asynchronously$/) do
-  visit 'http://capybara.local/html/chapter4/ajax.html'
+  visit 'http://localhost/html/chapter4/ajax.html'
   click_on 'Load'
 end
 

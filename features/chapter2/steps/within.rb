@@ -1,5 +1,5 @@
 Given(/^I am on a page with multiple sets of search results$/) do
-  visit 'http://capybara.local/html/chapter2/within.html'
+  visit 'http://localhost/html/chapter2/within.html'
 end
 
 When(/^I search for results within a scope$/) do

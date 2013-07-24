@@ -1,5 +1,5 @@
 Given(/^I am on a page with some search results$/) do
-  visit 'http://capybara.local/html/chapter2/query.html'
+  visit 'http://localhost/html/chapter2/query.html'
 end
 
 When(/^I search for content using Capybara's query API$/) do

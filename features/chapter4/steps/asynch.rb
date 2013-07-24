@@ -10,7 +10,7 @@ def wait_for(wait = 8)
 end
 
 When(/^I visit a page that makes an element visible with a delay$/) do
-  visit 'http://capybara.local/html/chapter4/asynch.html'
+  visit 'http://localhost/html/chapter4/asynch.html'
 end
 
 Then(/^Capybara waits for the element to be visible$/) do

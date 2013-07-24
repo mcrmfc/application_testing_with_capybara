@@ -1,5 +1,5 @@
 Given(/^I find an element using a CSS selector$/) do
-  visit 'http://capybara.local/html/chapter2/finders.html'
+  visit 'http://localhost/html/chapter2/finders.html'
 end
 
 When(/^I click on the element$/) do

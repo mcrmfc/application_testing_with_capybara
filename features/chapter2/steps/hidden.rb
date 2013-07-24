@@ -1,5 +1,5 @@
 Given(/^I am on a page with some hidden result elements$/) do
-  visit 'http://capybara.local/html/chapter2/hidden.html'
+  visit 'http://localhost/html/chapter2/hidden.html'
 end
 
 When(/^I search for visible results$/) do

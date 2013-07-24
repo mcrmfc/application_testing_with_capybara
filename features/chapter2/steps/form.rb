@@ -1,5 +1,5 @@
 Given(/^I visit a page with a simple form$/) do
-  visit 'http://capybara.local/html/chapter2/form.html'
+  visit 'http://localhost/html/chapter2/form.html'
 end
 
 When(/^I complete and submit the form$/) do

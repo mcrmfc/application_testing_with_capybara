@@ -1,5 +1,5 @@
 Given(/^I am on a page with multiple search results$/) do
-  visit 'http://capybara.local/html/chapter2/multiple.html'
+  visit 'http://localhost/html/chapter2/multiple.html'
 end
 
 When(/^I search for the relevant results$/) do
