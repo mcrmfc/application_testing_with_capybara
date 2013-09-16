@@ -9,7 +9,7 @@ Capybara.default_driver = :selenium
 Capybara.default_wait_time = 20 #set a very high timeout for some of our extreme examples
 
 Capybara.register_driver :selenium do |app|
-  Capybara::Selenium::Driver.new(app, :browser => :chrome)
+  Capybara::Selenium::Driver.new(app, :browser => :firefox)
 end
 
 Capybara.app = BookReview #our Sinatra app
