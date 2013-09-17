@@ -4,9 +4,7 @@ end
 
 When(/^I search for visible results$/) do
   @results = []
-  all('.result', :visible => true).each do |elem|
-    @results.push elem.text
-  end
+  all('.result', :visible => true).each { |elem| @results.push elem.text }
 end
 
 Then(/^the correct number of matches is found$/) do

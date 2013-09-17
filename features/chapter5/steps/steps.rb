@@ -1,13 +1,13 @@
 When(/^I hover over an element whose color changes on hover using CSS$/) do
   visit 'http://localhost/html/chapter5/hover.html'
   puts find('#box1').native.style('background-color')
-  find('#box1').hover 
+  find('#box1').hover
 end
 
 When(/^I hover over an element whose color changes on hover using JS$/) do
   visit 'http://localhost/html/chapter5/hover.html'
   puts find('#box2').native.style('background-color')
-  find('#box2').hover 
+  find('#box2').hover
 end
 
 Then(/^I see the color change$/) do

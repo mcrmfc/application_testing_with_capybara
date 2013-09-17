@@ -4,14 +4,12 @@ end
 
 When(/^I search for results within a scope$/) do
   within('#internet_results') do
-    all('.result').each do |elem|
-      puts elem.text #printing for demo purposes
-    end
+    all('.result').each { |elem| puts elem.text } #printing for demo purposes
   end
 end
 
 Then(/^the desired search results are returned$/) do
-  #For convenience show a number of different options in single step - not best practice ;-)
+  #For illustration purposes show a number of different options in single step - not best practice ;-)
   page.should have_content 'Local Match 1'
   first('#res1').should have_content 'Local Match 1'
   first('#res1')[:class].should == 'result'

@@ -3,7 +3,7 @@ Given(/^I am on a page with some search results$/) do
 end
 
 When(/^I search for content using Capybara's query API$/) do
-  #For convenience show a number of different options in single step - not best practice ;-)
+  #For illustration purposes show a number of different options in single step - not best practice ;-)
   page.has_link? 'Google!'
   page.has_selector? 'div[id=local_results]'
   page.has_xpath? "//div[@id='local_results']"
@@ -12,7 +12,7 @@ When(/^I search for content using Capybara's query API$/) do
 end
 
 Then(/^the correct elements are located$/) do
-  #For convenience show a number of different options in single step - not best practice ;-)
+  #For illustration purposes show a number of different options in single step - not best practice ;-)
   page.should have_content 'Local Match 1'
   first('#res1').should have_content 'Local Match 1'
   first('#res1')[:class].should == 'result'
