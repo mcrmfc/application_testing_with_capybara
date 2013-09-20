@@ -4,7 +4,7 @@ This [repo](http://github.com/mcrmfc/application_testing_with_capybara) contains
 
 ![http://www.packtpub.com/application-testing-with-capybara/book](1251OS.jpg)
 
-This code is available as a download from the [PACKT site](bundle exec cucumber -r features features/chapter2/finders.feature) and also here on Github.  I will always ensure Github has the latest copy of the code and then get the guys at PACKT to upload any updates, so it makes sense to check the Github copy regularly.
+This code is available as a download from the [PACKT site](http://www.packtpub.com/application-testing-with-capybara/book) and also here on Github.  I will always ensure Github has the latest copy of the code and then get the guys at PACKT to upload any updates, so it makes sense to check the Github copy regularly.
 
 ##Installation
 
