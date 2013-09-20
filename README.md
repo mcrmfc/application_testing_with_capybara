@@ -3,7 +3,7 @@
 
 This [repo](http://github.com/mcrmfc/application_testing_with_capybara) contains the code examples from the book Application Testing with Capybara which is published by PACKT.
 
-![application testing with capybara](images/1251OS.jpg)
+![application testing with capybara](1251OS.jpg)
 
 This code is available as a download from the PACKT site and also here on Github.  I will always ensure Github has the latest copy of the code and then get the guys at PACKT to upload any updates, so it makes sense to check the Github copy regularly.
 
