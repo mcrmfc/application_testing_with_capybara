@@ -1,5 +1,4 @@
 #Application Testing with Capybara - Examples from the book
-----------------------------------------------------
 
 This [repo](http://github.com/mcrmfc/application_testing_with_capybara) contains the code examples from the book Application Testing with Capybara which is published by PACKT.
 
